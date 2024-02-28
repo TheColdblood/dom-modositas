@@ -1,0 +1,17 @@
+.kutya{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+
+    flex: 0 0 300px;
+}
+
+.kutya.kep{
+    height: 500px;
+    overflow: hidden;
+}   
+
+.kutya img{
+    width: 50%;
+    padding: 2px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Gergő</title>
+    <script type="module" src="main.js"></script>
+    <link rel="stylesheet" href="stilus.css">
+</head>
+
+<body>
+    <div id="adatok">
+        <p></p>
+    </div>
+
+    <div id="kutyak">
+        <div class="kutya">
+            <div><img src='${lista[index].kep}' alt='${lista[index].nev}'></div>
+            <h3>${lista[index].nev}</h3>
+            <p>Kor: ${lista[index].kor}</p>
+            <p>Láb: ${lista[index].lab}</p>
+            <p>Fajta: ${lista[index].fajta}</p>
+        </div>
+    </div>
+</body>
+
+</html>
